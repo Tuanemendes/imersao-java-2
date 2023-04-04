@@ -224,11 +224,12 @@ Criação da conta no Fly.oi para fazer o deploy do projeto para rodar em cloud.
 </div>
 
 Deploy finalizado com sucesso!
-[languages-api](https://language-api-alura.fly.dev/languages)
+![languages-api](https://language-api-alura.fly.dev/languages)
 
 <h2>👩‍Desenvolvido Por</h2>
 
 
+![image](https://user-images.githubusercontent.com/54903202/229660817-a9c63a92-8ef4-4397-b100-c1e8f7ab7530.png)
 
  Realizado por [Tuane](https://www.linkedin.com/in/tuane-mendes/) 💙  
     
