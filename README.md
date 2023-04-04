@@ -58,10 +58,11 @@ O projeto tem como ojetivo de desenvolver uma aplicação  do zero em Java visan
 <h2>👩‍🏫👨‍🏫Aula 1</h2> 
 <p>
  
-Na primeira aula ideia iniciamente é  consumir microserviços de uma  API dos top 250 filmes, no qual será utilizada a IMDb-API. Foi realizado cadatro no site da IMDb-API para conseguir buscar o dados dos Top250Movies, o site não funcionava dizendo estar fora do ar como o satus 403, para resolução do problema, foi passado pelo time da alura um link pra buscar os dados e um segunda que encontrei foi utilizar uma VPN  que no qual foi possível acessar a o link do site IMDb-API.
+Na primeira aula ideia iniciamente é  consumir microserviços de uma  API dos top 250 filmes, no qual será utilizada a IMDb-API. Foi realizado cadatro no site da IMDb-API para conseguir buscar o dados dos Top250Movies, o site não funcionava dizendo estar fora do ar como o status 403, para resolução do problema, foi passado pelo time da alura um link pra buscar os dados e um segunda que encontrei foi utilizar uma VPN  que no qual foi possível acessar a o link do site IMDb-API.
 Na classe main foi criado a  conexão com o  http para buscar o top 250 filmes. 
 Foi criado uma JsonParser para fazer o processo de separação dos dados. 
 Criado um for para trazer a lista com manipulação do dados titulo , poster, classificação.
+
 </p>
 <h3>🛠Desafios Dia 01</h3>
 
@@ -69,9 +70,32 @@ Criado um for para trazer a lista com manipulação do dados titulo , poster, cl
 * Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!<br> 
 * Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.<br>
 
+<p>
+Para aprimoarar os stickers foi implementado uma saudação ja enviar a messagem de bom dia, boa tarde, boa noite de acordo com a hora que for gerada.  
+</p>
+
+
+```java
+            LocalTime horaAtual = LocalTime.now();
+            String textoSaudacao;
+            
+            if(horaAtual.isBefore(LocalTime.of(12, 0))){
+                textoSaudacao = "Bom dia!";
+            }else if(horaAtual.isBefore(LocalTime.of(18,0))){
+                textoSaudacao = "Boa tarde!";
+            }else{
+                textoSaudacao = "Boa Noite!";
+            }
+
+```
+
+
+
 <div align="center">
-    <img  src="https://user-images.githubusercontent.com/54903202/229263017-7af07f26-d8df-4382-8663-8a32c6563a7e.png" width="250" height="380" alt="Figura IMDBtop250">
+    <img  src="https://user-images.githubusercontent.com/54903202/229676349-a20e3f5c-f553-4ae6-bf38-f03391869d2e.png" width="250" height="380" alt="Figura IMDBtop250">
 </div>
+
+
 
 <div align="center">
     <img  src="https://user-images.githubusercontent.com/54903202/229263265-7e4ace23-5d1d-4c04-b7fd-cf4b2cafb84e.png" width="650" height="100" alt="Terminal Estrelas">
