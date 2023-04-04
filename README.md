@@ -35,14 +35,19 @@ O projeto tem como ojetivo de desenvolver uma aplicação  do zero em Java visan
 
 <h2>💻Tecnologias Utilizadas</h2>
 
-✅ Editor de código [VsCode](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)<br>
-✅ [Coding Pack para Java](https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java)<br> 
-✅ [Proton VPN](https://protonvpn.com/) <br> 
-✅ [IMDb-API](https://imdb-api.com/api)(*obs: VPN ligada) <br>
-✅ [NASA-API](https://api.nasa.gov/) <br>
-✅ [Spring Initializr](https://start.spring.io/) <br>
-✅ [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=rlsavisitor&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_retarget-brand_gic-null_amers-all_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=14412646314&adgroup=131761122172&cq_cmp=14412646314&gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qV-auOAO9-3MF2jGsKldDiosvvrVpqEfJQHYB5xz-peXjLt4-oY8WQaAmlBEALw_wcB)<br>
-✅ [Postman](https://www.postman.com/downloads/)
+|     |   |
+| :--------: | :--------: |    
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40" /> | Java 17 |   
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40"  /> | [VsCode](https://code.visualstudio.com/?wt.mc_id=vscom_downloads) |
+| <img src="https://user-images.githubusercontent.com/54903202/229671656-e5e752f3-6aa8-4432-9b36-174f86669ff7.png" width="40" height="40" /> | [Coding Pack para Java](https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java) |
+| <img src="https://user-images.githubusercontent.com/54903202/229672038-342beb0f-f6bc-442d-9f2b-4e2ed2d99085.png"/> | [Proton VPN](https://protonvpn.com/) |
+| <img src="https://user-images.githubusercontent.com/54903202/229672346-6f051572-5109-4185-92d9-2cf235804e65.png"/> | [IMDb-API](https://imdb-api.com/api)(*obs: VPN ligada) |
+| <img src="https://user-images.githubusercontent.com/54903202/229672797-003c08c7-d735-49a1-acc3-7852f802e5d3.png" width="40" height="40"/> | [NASA-API](https://api.nasa.gov/) |
+| <img src="https://img.icons8.com/color/40/null/spring-logo.png"/> | [Spring Initializr](https://start.spring.io/) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" width="40" height="40" /> | [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=rlsavisitor&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_retarget-brand_gic-null_amers-all_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=14412646314&adgroup=131761122172&cq_cmp=14412646314&gclid=Cj0KCQjwz6ShBhCMARIsAH9A0qV-auOAO9-3MF2jGsKldDiosvvrVpqEfJQHYB5xz-peXjLt4-oY8WQaAmlBEALw_wcB) |
+| <img src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png" width="40" height="40" /> | [Postman](https://www.postman.com/downloads/) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" /> | [Docker](https://www.docker.com/) |        
+| <img src="https://user-images.githubusercontent.com/54903202/229669708-f3093d2e-88fa-4503-a133-8266d5906811.png"/> | [Fly.io](https://fly.io/) |
 
 
 <h2>💻Funcionalidades e Demonstração da Aplicação</h2>
@@ -218,22 +223,27 @@ ENTRYPOINT exec java $JAVA_OPTS -jar languagesapi.jar
 <p>
 Criação da conta no Fly.oi para fazer o deploy do projeto para rodar em cloud.
 </p>
+
 <div align="center">
-    <img  src="https://user-images.githubusercontent.com/54903202/229656160-92ef3507-a7e7-4e2e-8179-341c575a9c1a.png
-" width="700" height="350" alt="fly.io">
+    <img  src="https://user-images.githubusercontent.com/54903202/229656160-92ef3507-a7e7-4e2e-8179-341c575a9c1a.png" width="700" height="350" alt="fly.io">
 </div>
 
-Deploy finalizado com sucesso!
-![languages-api](https://language-api-alura.fly.dev/languages)
+<p>
+Realizado set para a senha do banco de dados
+</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/54903202/229674646-eacc729d-7677-46ab-b74c-26898a97f35d.png" width="700" height="80" alt="Set-senha">
+</div>
+
+
+Deploy finalizado com sucesso! <br>
+link para acesso 👇 <br>
+➡️ ➡️ ➡️ [languages-api](https://language-api-alura.fly.dev/languages) ⬅️ ⬅️ ⬅️ 
 
 <h2>👩‍Desenvolvido Por</h2>
 
-
-![image](https://user-images.githubusercontent.com/54903202/229660817-a9c63a92-8ef4-4397-b100-c1e8f7ab7530.png)
-
- Realizado por [Tuane](https://www.linkedin.com/in/tuane-mendes/) 💙  
-    
-
+ [Tuane](https://www.linkedin.com/in/tuane-mendes/) 💙      
 
 <h2>Pessoas Contribuidoras</h2>
 
